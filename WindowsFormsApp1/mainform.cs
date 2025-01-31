@@ -215,9 +215,21 @@ namespace EffortCalculator
                 return;
             }
 
+            if (D <= 0)
+            {
+                MessageBox.Show("Водоизмещение должно быть положительным числом.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             if (!double.TryParse(HourEntry.Text, out double hourlyRate))
             {
                 MessageBox.Show("Введите корректную стоимость нормо-часа.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (hourlyRate <= 0)
+            {
+                MessageBox.Show("Стоимость нормо-часа должна быть положительным числом.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 

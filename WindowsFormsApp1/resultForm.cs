@@ -150,7 +150,7 @@ namespace EffortCalculator
                 Size = new System.Drawing.Size(660, 150),
                 AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill,
                 AllowUserToAddRows = false,
-                ReadOnly = false,
+                ReadOnly = true,
                 ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize,
             };
 
