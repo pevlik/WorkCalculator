@@ -25,7 +25,6 @@
     "Name": "\u041F\u0430\u0440\u043E\u043C\u044B \u0416/\u0414, \u0410/\u041C",
     "FormulaLow": "30 * D ^ 0,350 * 1000",
     "FormulaHigh": "0,0148 * D \u002B 606 * 1000",
-    "FormulaHigh": "0,0148 * D \u002B 606 * 1000",
     "MaxDisplacement": 10000
   },
   {
